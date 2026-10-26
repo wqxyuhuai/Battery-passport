@@ -1,6 +1,9 @@
 node_modules/
 dist/
 snapshots/
+.wrangler/
+.vite/
+.dev.vars
 *.log
 *.tsbuildinfo
 .env

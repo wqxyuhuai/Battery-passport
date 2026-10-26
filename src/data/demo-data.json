@@ -3,773 +3,790 @@
     "header": "跳到护照内容\nW\nWattsonic\n数字电池护照\n选择显示语言\n中文\nEnglish\nDeutsch\n下载 PDF\n欧盟数字产品护照\nWattsonic Li-LV 5.0\n护照唯一标识符\nDPP-2027-A001\n电池序列号\nA001\nDPP 状态\n有效\nEU 2023/1542\n护照数据更新时间 2026年10月23日 16:47\n认证可用电池能量\n5.12\nkWh\n标称电压\n51.2\nV\n额定容量\n100\nAh\n预计寿命（充放电循环次数）\n6,000\n次\n电池重量\n62\nkg\n电池信息\n性能\n材料与碳足迹\n使用与健康\n合规与回收\n合规与回收\n在当前分类中搜索\n产品合规\n符合性声明\n查看文件\n单独收集符号\n查看文件\n镉和铅化学符号\n查看文件\n碳足迹标签\n查看文件\n可用灭火剂\n水雾、干粉、二氧化碳\n标签和符号含义\n回收标识；铅、镉警示符号；CE 标识\n测试报告结果\n需要授权访问\n安全与处置\n电池包拆卸手册\n需要授权访问\n组件零件号\n查看文件\n备件生产者联系方式\n查看文件\n安全措施\n查看文件\n回收与收集\n收集和处理体系\n查看文件\n废物预防中的终端用户作用\n查看文件\n分类收集中的终端用户作用\n查看文件",
     "panels": {
       "0": {
+        "title": "电池信息",
         "sections": [
           {
+            "title": "护照身份",
             "fields": [
               {
-                "href": null,
                 "id": "005",
                 "label": "护照唯一标识符",
+                "value": "DPP-2027-A001",
+                "href": null,
                 "locked": false,
-                "value": "DPP-2027-A001"
+                "mono": true
               },
               {
-                "href": null,
                 "id": "006",
                 "label": "电池唯一标识符",
+                "value": "01 06901234567892 21 A001",
+                "href": null,
                 "locked": false,
-                "value": "01 06901234567892 21 A001"
+                "mono": true
               },
               {
-                "href": null,
                 "id": "011",
                 "label": "电池序列号",
+                "value": "A001",
+                "href": null,
                 "locked": false,
-                "value": "A001"
+                "mono": true
               },
               {
-                "href": null,
                 "id": "010",
                 "label": "电池型号标识符",
+                "value": "WTS-LiLV-5.12",
+                "href": null,
                 "locked": false,
-                "value": "WTS-LiLV-5.12"
+                "mono": true
               },
               {
-                "href": null,
                 "id": "002",
                 "label": "DPP 状态",
+                "value": "有效",
+                "href": null,
                 "locked": false,
-                "value": "有效"
+                "emphasis": true
               },
               {
-                "href": null,
                 "id": "003",
                 "label": "DPP 数据粒度",
-                "locked": false,
-                "value": "单品（Item）"
+                "value": "单品（Item）",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "009",
                 "label": "内容规范标识",
+                "value": "Wattsonic-DPP-Schema-v1.2\nEN 18219",
+                "href": null,
                 "locked": false,
-                "value": "Wattsonic-DPP-Schema-v1.2\nEN 18219"
+                "chips": true,
+                "emphasis": true
               },
               {
-                "href": null,
                 "id": "004",
                 "label": "护照数据更新时间",
-                "locked": false,
-                "value": "2026年10月23日 16:47"
+                "value": "2026年10月23日 16:47",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "001",
                 "label": "DPP Schema 版本",
+                "value": "1.2",
+                "href": null,
                 "locked": false,
-                "value": "1.2"
+                "mono": true
               }
-            ],
-            "title": "护照身份"
+            ]
           },
           {
+            "title": "物理与化学特性",
             "fields": [
               {
-                "href": null,
                 "id": "020",
                 "label": "电池类别",
-                "locked": false,
-                "value": "工业电池（>2 kWh）"
+                "value": "工业电池（>2 kWh）",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "041",
                 "label": "电池化学体系",
-                "locked": false,
-                "value": "LFP（磷酸铁锂）"
+                "value": "LFP（磷酸铁锂）",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "物理与化学特性"
+            ]
           },
           {
+            "title": "制造商与经营者",
             "fields": [
               {
-                "href": null,
                 "id": "015",
                 "label": "制造商信息",
+                "value": "Wattsonic Technology Co., Ltd.\nBuilding 5, High-Tech Park, Nanshan District, Shenzhen 518000, China\nBrand: Wattsonic\nWebsite: https://www.wattsonic.com\nEmail: info@wattsonic.com",
+                "href": null,
                 "locked": false,
-                "value": "Wattsonic Technology Co., Ltd.\nBuilding 5, High-Tech Park, Nanshan District, Shenzhen 518000, China\nBrand: Wattsonic\nWebsite: https://www.wattsonic.com\nEmail: info@wattsonic.com"
+                "emphasis": true
               },
               {
-                "href": null,
                 "id": "012",
                 "label": "制造商唯一标识符",
+                "value": "6901234567892",
+                "href": null,
                 "locked": false,
-                "value": "6901234567892"
+                "mono": true
               },
               {
-                "href": null,
                 "id": "013",
                 "label": "第三方服务提供商",
-                "locked": false,
-                "value": "Wattsonic Service Europe GmbH"
+                "value": "Wattsonic Service Europe GmbH",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "007",
                 "label": "经济经营者标识",
+                "value": "4006381333931",
+                "href": null,
                 "locked": false,
-                "value": "4006381333931"
+                "mono": true
               },
               {
-                "href": null,
                 "id": "014",
                 "label": "经济经营者信息",
+                "value": "Company: ABC Energy GmbH\nRegistered address: Potsdamer Platz 10, 10785 Berlin, Germany\nWebsite: https://abc-energy.example\nEmail: compliance@abc-energy.example\nPhone: +49 30 1234 5678\nRole: Importer",
+                "href": null,
                 "locked": false,
-                "value": "Company: ABC Energy GmbH\nRegistered address: Potsdamer Platz 10, 10785 Berlin, Germany\nWebsite: https://abc-energy.example\nEmail: compliance@abc-energy.example\nPhone: +49 30 1234 5678\nRole: Importer"
+                "emphasis": true
               }
-            ],
-            "title": "制造商与经营者"
+            ]
           },
           {
+            "title": "生产与质保",
             "fields": [
               {
-                "href": null,
                 "id": "016",
                 "label": "制造地点",
-                "locked": false,
-                "value": "中国广东深圳生产基地"
+                "value": "中国广东深圳生产基地",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "008",
                 "label": "设施唯一标识符",
+                "value": "6901234567892",
+                "href": null,
                 "locked": false,
-                "value": "6901234567892"
+                "mono": true
               },
               {
-                "href": null,
                 "id": "017",
                 "label": "制造日期",
-                "locked": false,
-                "value": "2027年2月"
+                "value": "2027年2月",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "生产与质保"
+            ]
           }
-        ],
-        "title": "电池信息"
+        ]
       },
       "1": {
+        "title": "性能",
         "sections": [
           {
+            "title": "电气性能",
             "fields": [
               {
-                "href": null,
                 "id": "057",
                 "label": "额定容量",
-                "locked": false,
-                "value": "100 Ah"
+                "value": "100 Ah",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "060",
                 "label": "认证可用电池能量",
-                "locked": false,
-                "value": "5.12 kWh"
+                "value": "5.12 kWh",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "066",
                 "label": "标称电压",
-                "locked": false,
-                "value": "51.2 V"
+                "value": "51.2 V",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "064",
                 "label": "最小电压",
-                "locked": false,
-                "value": "40 V"
+                "value": "40 V",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "065",
                 "label": "最大电压",
-                "locked": false,
-                "value": "58.4 V"
+                "value": "58.4 V",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "067",
                 "label": "原始功率能力",
-                "locked": false,
-                "value": "5120 W"
+                "value": "5120 W",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "070",
                 "label": "最大允许电池功率",
-                "locked": false,
-                "value": "5632 W"
+                "value": "5632 W",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "021",
                 "label": "电池重量",
-                "locked": false,
-                "value": "62 kg"
+                "value": "62 kg",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "电气性能"
+            ]
           },
           {
+            "title": "能量效率",
             "fields": [
               {
-                "href": null,
                 "id": "071",
                 "label": "初始往返能效",
-                "locked": false,
-                "value": "95%"
+                "value": "95%",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "072",
                 "label": "50%寿命往返能效",
-                "locked": false,
-                "value": "92%"
+                "value": "92%",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "075",
                 "label": "初始自放电率",
-                "locked": false,
-                "value": "1.5%/month"
+                "value": "1.5%/month",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "能量效率"
+            ]
           },
           {
+            "title": "寿命与环境边界",
             "fields": [
               {
-                "href": null,
                 "id": "078",
                 "label": "电芯和电池包初始内阻",
-                "locked": false,
-                "value": "25 mΩ"
+                "value": "25 mΩ",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "081",
                 "label": "预期日历寿命",
-                "locked": false,
-                "value": "10 years"
+                "value": "10 years",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "082",
                 "label": "预计寿命（充放电循环次数）",
-                "locked": false,
-                "value": "6000 次"
+                "value": "6000 次",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "084",
                 "label": "循环寿命测试方法",
-                "locked": false,
-                "value": "IEC 62620 / IEC 62619"
+                "value": "IEC 62620 / IEC 62619",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "085",
                 "label": "循环寿命测试C倍率",
-                "locked": false,
-                "value": "0.5C"
+                "value": "0.5C",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "088",
                 "label": "非使用最低温度",
-                "locked": false,
-                "value": "-10°C"
+                "value": "-10°C",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "089",
                 "label": "非使用最高温度",
-                "locked": false,
-                "value": "45°C"
+                "value": "45°C",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "寿命与环境边界"
+            ]
           },
           {
+            "title": "质保期",
             "fields": [
               {
-                "href": null,
                 "id": "019",
                 "label": "商业质保期",
-                "locked": false,
-                "value": "10 年或 10,000 次循环，以先到者为准"
+                "value": "10 年或 10,000 次循环，以先到者为准",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "质保期"
+            ]
           }
-        ],
-        "title": "性能"
+        ]
       },
       "2": {
+        "title": "材料与碳足迹",
         "sections": [
           {
+            "title": "材料组成",
             "fields": [
               {
-                "href": null,
                 "id": "042",
                 "label": "关键原材料",
+                "value": "Lithium\nGraphite\nCopper\nAluminium\nIron\nPhosphorus",
+                "href": null,
                 "locked": false,
-                "value": "Lithium\nGraphite\nCopper\nAluminium\nIron\nPhosphorus"
+                "chips": true,
+                "wide": true
               },
               {
-                "href": null,
                 "id": "043",
                 "label": "正极、负极和电解液材料",
+                "value": "Cathode: LFP\nAnode: Graphite\nElectrolyte: LiPF6\nSeparator: PE",
+                "href": null,
                 "locked": false,
-                "value": "Cathode: LFP\nAnode: Graphite\nElectrolyte: LiPF6\nSeparator: PE"
+                "wide": true
               },
               {
-                "href": null,
                 "id": "044",
                 "label": "有害物质及其影响",
+                "value": "Lead: < 0.01%\nCadmium: < 0.002%\nMercury: < 0.0005%",
+                "href": null,
                 "locked": false,
-                "value": "Lead: < 0.01%\nCadmium: < 0.002%\nMercury: < 0.0005%"
+                "wide": true
               }
-            ],
-            "title": "材料组成"
+            ]
           },
           {
+            "title": "再生材料",
             "fields": [
               {
-                "href": null,
                 "id": "049",
                 "label": "镍再生材料含量比例",
-                "locked": false,
-                "value": "18%"
+                "value": "18%",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "050",
                 "label": "钴再生材料含量比例",
-                "locked": false,
-                "value": "12%"
+                "value": "12%",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "051",
                 "label": "锂再生材料含量比例",
-                "locked": false,
-                "value": "15%"
+                "value": "15%",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "052",
                 "label": "铅再生材料含量比例",
-                "locked": false,
-                "value": "0%"
+                "value": "0%",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "053",
                 "label": "可再生材料比例",
-                "locked": false,
-                "value": "25%"
+                "value": "25%",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "再生材料"
+            ]
           },
           {
+            "title": "碳足迹",
             "fields": [
               {
-                "href": null,
                 "id": "030",
                 "label": "单位功能量碳足迹",
-                "locked": false,
-                "value": "65.0 kgCO2eq/kWh"
+                "value": "65.0 kgCO2eq/kWh",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "031",
                 "label": "原材料获取及预处理阶段碳足迹",
-                "locked": false,
-                "value": "28.4 kgCO2eq/kWh"
+                "value": "28.4 kgCO2eq/kWh",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "032",
                 "label": "主要产品生产阶段碳足迹",
-                "locked": false,
-                "value": "22.6 kgCO2eq/kWh"
+                "value": "22.6 kgCO2eq/kWh",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "033",
                 "label": "分销阶段碳足迹",
-                "locked": false,
-                "value": "6.8 kgCO2eq/kWh"
+                "value": "6.8 kgCO2eq/kWh",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "034",
                 "label": "报废及回收阶段碳足迹",
-                "locked": false,
-                "value": "7.2 kgCO2eq/kWh"
+                "value": "7.2 kgCO2eq/kWh",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "035",
                 "label": "碳足迹性能等级",
-                "locked": false,
-                "value": "A"
+                "value": "A",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "037",
                 "label": "电池绝对碳足迹",
-                "locked": false,
-                "value": "333 kgCO2eq"
+                "value": "333 kgCO2eq",
+                "href": null,
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/lca-study",
                 "id": "036",
                 "label": "碳足迹研究链接",
-                "locked": false,
-                "value": "查看文件"
+                "value": "查看文件",
+                "href": "https://passport.wattsonic.com/docs/lca-study",
+                "locked": false
               }
-            ],
-            "title": "碳足迹"
+            ]
           },
           {
+            "title": "负责任采购",
             "fields": [
               {
-                "href": null,
                 "id": "040",
                 "label": "供应链指标",
-                "locked": false,
-                "value": "符合 OECD 尽职调查要求；锂、镍、钴冶炼厂 100% 可追溯。"
+                "value": "符合 OECD 尽职调查要求；锂、镍、钴冶炼厂 100% 可追溯。",
+                "href": null,
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/due-diligence",
                 "id": "038",
                 "label": "尽职调查政策",
-                "locked": false,
-                "value": "查看文件"
+                "value": "查看文件",
+                "href": "https://passport.wattsonic.com/docs/due-diligence",
+                "locked": false
               },
               {
-                "href": null,
                 "id": "039",
                 "label": "第三方保证文件",
-                "locked": true,
-                "value": "需要授权访问"
+                "value": "需要授权访问",
+                "href": null,
+                "locked": true
               }
-            ],
-            "title": "负责任采购"
+            ]
           }
-        ],
-        "title": "材料与碳足迹"
+        ]
       },
       "3": {
+        "title": "使用与健康",
         "sections": [
           {
+            "title": "状态与荷电",
             "fields": [
               {
-                "href": null,
                 "id": "018",
                 "label": "投入使用日期",
-                "locked": false,
-                "value": "2027年4月"
+                "value": "2027年4月",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "022",
                 "label": "电池生命周期状态",
-                "locked": false,
-                "value": "在用"
+                "value": "在用",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "063",
                 "label": "当前荷电状态",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "062",
                 "label": "认证能量状态",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "状态与荷电"
+            ]
           },
           {
+            "title": "容量与衰减",
             "fields": [
               {
-                "href": null,
                 "id": "058",
                 "label": "剩余容量",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "059",
                 "label": "容量衰减",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "061",
                 "label": "剩余可用电池能量",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "086",
                 "label": "容量耗尽阈值",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "容量与衰减"
+            ]
           },
           {
+            "title": "功率与效率",
             "fields": [
               {
-                "href": null,
                 "id": "068",
                 "label": "剩余功率能力",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "069",
                 "label": "功率衰减",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "073",
                 "label": "剩余往返能效",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "074",
                 "label": "往返能效衰减",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "功率与效率"
+            ]
           },
           {
+            "title": "内阻与自放电",
             "fields": [
               {
-                "href": null,
                 "id": "076",
                 "label": "当前自放电率",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "077",
                 "label": "自放电率演变",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "079",
                 "label": "电池包内阻增长",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "080",
                 "label": "当前电池包内阻",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "内阻与自放电"
+            ]
           },
           {
+            "title": "循环与事件",
             "fields": [
               {
-                "href": null,
                 "id": "083",
                 "label": "完整充放电循环次数",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "087",
                 "label": "温度信息",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "090",
                 "label": "深度放电事件次数",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "091",
                 "label": "过充事件次数",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "092",
                 "label": "负面事件",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "循环与事件"
+            ]
           }
-        ],
-        "title": "使用与健康"
+        ]
       },
       "4": {
+        "title": "合规与回收",
         "sections": [
           {
+            "title": "产品合规",
             "fields": [
               {
-                "href": "https://passport.wattsonic.com/docs/eu-doc",
                 "id": "028",
                 "label": "符合性声明",
-                "locked": false,
-                "value": "查看文件"
+                "value": "查看文件",
+                "href": "https://passport.wattsonic.com/docs/eu-doc",
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/separate-collection",
                 "id": "023",
                 "label": "单独收集符号",
-                "locked": false,
-                "value": "查看文件"
+                "value": "查看文件",
+                "href": "https://passport.wattsonic.com/docs/separate-collection",
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/cd-pb-symbols",
                 "id": "024",
                 "label": "镉和铅化学符号",
-                "locked": false,
-                "value": "查看文件"
+                "value": "查看文件",
+                "href": "https://passport.wattsonic.com/docs/cd-pb-symbols",
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/carbon-label",
                 "id": "025",
                 "label": "碳足迹标签",
-                "locked": false,
-                "value": "查看文件"
+                "value": "查看文件",
+                "href": "https://passport.wattsonic.com/docs/carbon-label",
+                "locked": false
               },
               {
-                "href": null,
                 "id": "026",
                 "label": "可用灭火剂",
-                "locked": false,
-                "value": "水雾、干粉、二氧化碳"
+                "value": "水雾、干粉、二氧化碳",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "027",
                 "label": "标签和符号含义",
-                "locked": false,
-                "value": "回收标识；铅、镉警示符号；CE 标识"
+                "value": "回收标识；铅、镉警示符号；CE 标识",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "029",
                 "label": "测试报告结果",
-                "locked": true,
-                "value": "需要授权访问"
+                "value": "需要授权访问",
+                "href": null,
+                "locked": true
               }
-            ],
-            "title": "产品合规"
+            ]
           },
           {
+            "title": "安全与处置",
             "fields": [
               {
-                "href": null,
                 "id": "045",
                 "label": "电池包拆卸手册",
-                "locked": true,
-                "value": "需要授权访问"
+                "value": "需要授权访问",
+                "href": null,
+                "locked": true
               },
               {
-                "href": "https://passport.wattsonic.com/docs/component-parts",
                 "id": "046",
                 "label": "组件零件号",
-                "locked": false,
-                "value": "查看文件"
+                "value": "查看文件",
+                "href": "https://passport.wattsonic.com/docs/component-parts",
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/spare-parts",
                 "id": "047",
                 "label": "备件生产者联系方式",
-                "locked": false,
-                "value": "查看文件"
+                "value": "查看文件",
+                "href": "https://passport.wattsonic.com/docs/spare-parts",
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/safety-measures",
                 "id": "048",
                 "label": "安全措施",
-                "locked": false,
-                "value": "查看文件"
+                "value": "查看文件",
+                "href": "https://passport.wattsonic.com/docs/safety-measures",
+                "locked": false
               }
-            ],
-            "title": "安全与处置"
+            ]
           },
           {
+            "title": "回收与收集",
             "fields": [
               {
-                "href": "https://passport.wattsonic.com/docs/collection-network",
                 "id": "056",
                 "label": "收集和处理体系",
-                "locked": false,
-                "value": "查看文件"
+                "value": "查看文件",
+                "href": "https://passport.wattsonic.com/docs/collection-network",
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/end-user-waste-prevention",
                 "id": "054",
                 "label": "废物预防中的终端用户作用",
-                "locked": false,
-                "value": "查看文件"
+                "value": "查看文件",
+                "href": "https://passport.wattsonic.com/docs/end-user-waste-prevention",
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/end-user-collection",
                 "id": "055",
                 "label": "分类收集中的终端用户作用",
-                "locked": false,
-                "value": "查看文件"
+                "value": "查看文件",
+                "href": "https://passport.wattsonic.com/docs/end-user-collection",
+                "locked": false
               }
-            ],
-            "title": "回收与收集"
+            ]
           }
-        ],
-        "title": "合规与回收"
+        ]
       }
     }
   },
@@ -777,773 +794,790 @@
     "header": "Skip to passport content\nW\nWattsonic\nDigital Battery Passport\nSelect display language\n中文\nEnglish\nDeutsch\nDownload PDF\nEU Digital Product Passport\nWattsonic Li-LV 5.0\nUnique battery passport identifier / unique DPP identifier\nDPP-2027-A001\nBattery serial number\nA001\nDPP Status\nActive\nEU 2023/1542\nDate-time of latest update of DPP 23 Oct 2026, 16:47\nCertified usable battery energy\n5.12\nkWh\nNominal voltage\n51.2\nV\nRated capacity\n100\nAh\nExpected lifetime (Number of charge-discharge cycles)\n6,000\ncycles\nBattery weight\n62\nkg\nBattery information\nPerformance\nMaterials & carbon\nUsage & health\nCompliance & recycling\nCompliance & recycling\nSearch this category\nProduct compliance\nEU declaration of conformity\nView document\nSeparate collection symbol\nView document\nSymbols for cadmium and lead\nView document\nCarbon footprint label\nView document\nExtinguishing agent\nWater mist, dry powder, CO₂\nMeaning of labels and symbols\nRecycle symbol; Pb and Cd warning symbols; CE mark\nResults of test reports proving compliance\nAuthorization required\nSafety and handling\nDismantling information: Manuals for the removal and the disassembly of the battery pack\nAuthorization required\nPart numbers for components\nView document\nInformation on sources of spare parts\nView document\nSafety measures\nView document\nTake-back & collection\nInformation on battery collection, preparation for second life and on treatment at end of life\nView document\nInformation on the role of end-users in contributing to waste prevention\nView document\nInformation on the role of end-users in contributing to the separate collection of waste batteries\nView document",
     "panels": {
       "0": {
+        "title": "Battery information",
         "sections": [
           {
+            "title": "Passport identity",
             "fields": [
               {
-                "href": null,
                 "id": "005",
                 "label": "Unique battery passport identifier / unique DPP identifier",
+                "value": "DPP-2027-A001",
+                "href": null,
                 "locked": false,
-                "value": "DPP-2027-A001"
+                "mono": true
               },
               {
-                "href": null,
                 "id": "006",
                 "label": "Unique battery identifier / unique product identifier",
+                "value": "01 06901234567892 21 A001",
+                "href": null,
                 "locked": false,
-                "value": "01 06901234567892 21 A001"
+                "mono": true
               },
               {
-                "href": null,
                 "id": "011",
                 "label": "Battery serial number",
+                "value": "A001",
+                "href": null,
                 "locked": false,
-                "value": "A001"
+                "mono": true
               },
               {
-                "href": null,
                 "id": "010",
                 "label": "Battery model identifier",
+                "value": "WTS-LiLV-5.12",
+                "href": null,
                 "locked": false,
-                "value": "WTS-LiLV-5.12"
+                "mono": true
               },
               {
-                "href": null,
                 "id": "002",
                 "label": "DPP Status",
+                "value": "Active",
+                "href": null,
                 "locked": false,
-                "value": "Active"
+                "emphasis": true
               },
               {
-                "href": null,
                 "id": "003",
                 "label": "DPP Granularity",
-                "locked": false,
-                "value": "Item"
+                "value": "Item",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "009",
                 "label": "Content specification Ids",
+                "value": "Wattsonic-DPP-Schema-v1.2\nEN 18219",
+                "href": null,
                 "locked": false,
-                "value": "Wattsonic-DPP-Schema-v1.2\nEN 18219"
+                "chips": true,
+                "emphasis": true
               },
               {
-                "href": null,
                 "id": "004",
                 "label": "Date-time of latest update of DPP",
-                "locked": false,
-                "value": "23 Oct 2026, 16:47"
+                "value": "23 Oct 2026, 16:47",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "001",
                 "label": "DPP Schema version",
+                "value": "1.2",
+                "href": null,
                 "locked": false,
-                "value": "1.2"
+                "mono": true
               }
-            ],
-            "title": "Passport identity"
+            ]
           },
           {
+            "title": "Physical and chemical properties",
             "fields": [
               {
-                "href": null,
                 "id": "020",
                 "label": "Battery category",
-                "locked": false,
-                "value": "Industrial battery (>2 kWh)"
+                "value": "Industrial battery (>2 kWh)",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "041",
                 "label": "Battery chemistry",
-                "locked": false,
-                "value": "LFP (lithium iron phosphate)"
+                "value": "LFP (lithium iron phosphate)",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "Physical and chemical properties"
+            ]
           },
           {
+            "title": "Manufacturer and operators",
             "fields": [
               {
-                "href": null,
                 "id": "015",
                 "label": "Manufacturer information",
+                "value": "Wattsonic Technology Co., Ltd.\nBuilding 5, High-Tech Park, Nanshan District, Shenzhen 518000, China\nBrand: Wattsonic\nWebsite: https://www.wattsonic.com\nEmail: info@wattsonic.com",
+                "href": null,
                 "locked": false,
-                "value": "Wattsonic Technology Co., Ltd.\nBuilding 5, High-Tech Park, Nanshan District, Shenzhen 518000, China\nBrand: Wattsonic\nWebsite: https://www.wattsonic.com\nEmail: info@wattsonic.com"
+                "emphasis": true
               },
               {
-                "href": null,
                 "id": "012",
                 "label": "Unique manufacturer identifier",
+                "value": "6901234567892",
+                "href": null,
                 "locked": false,
-                "value": "6901234567892"
+                "mono": true
               },
               {
-                "href": null,
                 "id": "013",
                 "label": "Third party service provider",
-                "locked": false,
-                "value": "Wattsonic Service Europe GmbH"
+                "value": "Wattsonic Service Europe GmbH",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "007",
                 "label": "Unique economic operator identifier",
+                "value": "4006381333931",
+                "href": null,
                 "locked": false,
-                "value": "4006381333931"
+                "mono": true
               },
               {
-                "href": null,
                 "id": "014",
                 "label": "Economic operator information",
+                "value": "Company: ABC Energy GmbH\nRegistered address: Potsdamer Platz 10, 10785 Berlin, Germany\nWebsite: https://abc-energy.example\nEmail: compliance@abc-energy.example\nPhone: +49 30 1234 5678\nRole: Importer",
+                "href": null,
                 "locked": false,
-                "value": "Company: ABC Energy GmbH\nRegistered address: Potsdamer Platz 10, 10785 Berlin, Germany\nWebsite: https://abc-energy.example\nEmail: compliance@abc-energy.example\nPhone: +49 30 1234 5678\nRole: Importer"
+                "emphasis": true
               }
-            ],
-            "title": "Manufacturer and operators"
+            ]
           },
           {
+            "title": "Production and warranty",
             "fields": [
               {
-                "href": null,
                 "id": "016",
                 "label": "Manufacturing place",
-                "locked": false,
-                "value": "Shenzhen manufacturing site, Guangdong, China"
+                "value": "Shenzhen manufacturing site, Guangdong, China",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "008",
                 "label": "Unique facility identifier",
+                "value": "6901234567892",
+                "href": null,
                 "locked": false,
-                "value": "6901234567892"
+                "mono": true
               },
               {
-                "href": null,
                 "id": "017",
                 "label": "Manufacturing date",
-                "locked": false,
-                "value": "Feb 2027"
+                "value": "Feb 2027",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "Production and warranty"
+            ]
           }
-        ],
-        "title": "Battery information"
+        ]
       },
       "1": {
+        "title": "Performance",
         "sections": [
           {
+            "title": "Electrical performance",
             "fields": [
               {
-                "href": null,
                 "id": "057",
                 "label": "Rated capacity",
-                "locked": false,
-                "value": "100 Ah"
+                "value": "100 Ah",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "060",
                 "label": "Certified usable battery energy",
-                "locked": false,
-                "value": "5.12 kWh"
+                "value": "5.12 kWh",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "066",
                 "label": "Nominal voltage",
-                "locked": false,
-                "value": "51.2 V"
+                "value": "51.2 V",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "064",
                 "label": "Minimum voltage",
-                "locked": false,
-                "value": "40 V"
+                "value": "40 V",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "065",
                 "label": "Maximum voltage",
-                "locked": false,
-                "value": "58.4 V"
+                "value": "58.4 V",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "067",
                 "label": "Original power capability",
-                "locked": false,
-                "value": "5120 W"
+                "value": "5120 W",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "070",
                 "label": "Maximum permitted battery power",
-                "locked": false,
-                "value": "5632 W"
+                "value": "5632 W",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "021",
                 "label": "Battery mass",
-                "locked": false,
-                "value": "62 kg"
+                "value": "62 kg",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "Electrical performance"
+            ]
           },
           {
+            "title": "Energy efficiency",
             "fields": [
               {
-                "href": null,
                 "id": "071",
                 "label": "Initial round trip energy efficiency",
-                "locked": false,
-                "value": "95%"
+                "value": "95%",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "072",
                 "label": "Round trip energy efficiency at 50% of cycle life",
-                "locked": false,
-                "value": "92%"
+                "value": "92%",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "075",
                 "label": "Initial self-discharge rate",
-                "locked": false,
-                "value": "1.5%/month"
+                "value": "1.5%/month",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "Energy efficiency"
+            ]
           },
           {
+            "title": "Lifetime and environmental limits",
             "fields": [
               {
-                "href": null,
                 "id": "078",
                 "label": "Initial internal resistance of battery cell and pack (module recommended)",
-                "locked": false,
-                "value": "25 mΩ"
+                "value": "25 mΩ",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "081",
                 "label": "Expected lifetime in calendar years",
-                "locked": false,
-                "value": "10 years"
+                "value": "10 years",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "082",
                 "label": "Expected lifetime (Number of charge-discharge cycles)",
-                "locked": false,
-                "value": "6000cycles"
+                "value": "6000cycles",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "084",
                 "label": "Cycle-life reference test",
-                "locked": false,
-                "value": "IEC 62620 / IEC 62619"
+                "value": "IEC 62620 / IEC 62619",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "085",
                 "label": "C-rate of relevant cycle-life test",
-                "locked": false,
-                "value": "0.5C"
+                "value": "0.5C",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "088",
                 "label": "Temperature range idle state, lower boundary",
-                "locked": false,
-                "value": "-10°C"
+                "value": "-10°C",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "089",
                 "label": "Temperature range idle state, upper boundary",
-                "locked": false,
-                "value": "45°C"
+                "value": "45°C",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "Lifetime and environmental limits"
+            ]
           },
           {
+            "title": "Warranty period",
             "fields": [
               {
-                "href": null,
                 "id": "019",
                 "label": "Warranty period of the battery",
-                "locked": false,
-                "value": "10 years or 10,000 cycles, whichever comes first"
+                "value": "10 years or 10,000 cycles, whichever comes first",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "Warranty period"
+            ]
           }
-        ],
-        "title": "Performance"
+        ]
       },
       "2": {
+        "title": "Materials & carbon",
         "sections": [
           {
+            "title": "Material composition",
             "fields": [
               {
-                "href": null,
                 "id": "042",
                 "label": "Critical raw materials",
+                "value": "Lithium\nGraphite\nCopper\nAluminium\nIron\nPhosphorus",
+                "href": null,
                 "locked": false,
-                "value": "Lithium\nGraphite\nCopper\nAluminium\nIron\nPhosphorus"
+                "chips": true,
+                "wide": true
               },
               {
-                "href": null,
                 "id": "043",
                 "label": "Materials used in cathode, anode and electrolyte",
+                "value": "Cathode: LFP\nAnode: Graphite\nElectrolyte: LiPF6\nSeparator: PE",
+                "href": null,
                 "locked": false,
-                "value": "Cathode: LFP\nAnode: Graphite\nElectrolyte: LiPF6\nSeparator: PE"
+                "wide": true
               },
               {
-                "href": null,
                 "id": "044",
                 "label": "Hazardous substances and their impact",
+                "value": "Lead: < 0.01%\nCadmium: < 0.002%\nMercury: < 0.0005%",
+                "href": null,
                 "locked": false,
-                "value": "Lead: < 0.01%\nCadmium: < 0.002%\nMercury: < 0.0005%"
+                "wide": true
               }
-            ],
-            "title": "Material composition"
+            ]
           },
           {
+            "title": "Recycled content",
             "fields": [
               {
-                "href": null,
                 "id": "049",
                 "label": "Nickel recycled content share",
-                "locked": false,
-                "value": "18%"
+                "value": "18%",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "050",
                 "label": "Cobalt recycled content share",
-                "locked": false,
-                "value": "12%"
+                "value": "12%",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "051",
                 "label": "Lithium recycled content share",
-                "locked": false,
-                "value": "15%"
+                "value": "15%",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "052",
                 "label": "Lead recycled content share",
-                "locked": false,
-                "value": "0%"
+                "value": "0%",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "053",
                 "label": "Renewable content share",
-                "locked": false,
-                "value": "25%"
+                "value": "25%",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "Recycled content"
+            ]
           },
           {
+            "title": "Carbon footprint",
             "fields": [
               {
-                "href": null,
                 "id": "030",
                 "label": "Battery carbon footprint per Functional Unit",
-                "locked": false,
-                "value": "65.0 kgCO2eq/kWh"
+                "value": "65.0 kgCO2eq/kWh",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "031",
                 "label": "Contribution of raw material acquisition and pre-processing lifecycle stage",
-                "locked": false,
-                "value": "28.4 kgCO2eq/kWh"
+                "value": "28.4 kgCO2eq/kWh",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "032",
                 "label": "Contribution of main product production lifecycle stage",
-                "locked": false,
-                "value": "22.6 kgCO2eq/kWh"
+                "value": "22.6 kgCO2eq/kWh",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "033",
                 "label": "Contribution of distribution lifecycle stage",
-                "locked": false,
-                "value": "6.8 kgCO2eq/kWh"
+                "value": "6.8 kgCO2eq/kWh",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "034",
                 "label": "Contribution of end of life and recycling lifecycle stage",
-                "locked": false,
-                "value": "7.2 kgCO2eq/kWh"
+                "value": "7.2 kgCO2eq/kWh",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "035",
                 "label": "Carbon footprint performance class",
-                "locked": false,
-                "value": "A"
+                "value": "A",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "037",
                 "label": "Absolute battery carbon footprint",
-                "locked": false,
-                "value": "333 kgCO2eq"
+                "value": "333 kgCO2eq",
+                "href": null,
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/lca-study",
                 "id": "036",
                 "label": "Web link to public carbon footprint study",
-                "locked": false,
-                "value": "View document"
+                "value": "View document",
+                "href": "https://passport.wattsonic.com/docs/lca-study",
+                "locked": false
               }
-            ],
-            "title": "Carbon footprint"
+            ]
           },
           {
+            "title": "Responsible sourcing",
             "fields": [
               {
-                "href": null,
                 "id": "040",
                 "label": "Supply chain indices",
-                "locked": false,
-                "value": "OECD-aligned due diligence; 100% smelter traceability for lithium, nickel and cobalt."
+                "value": "OECD-aligned due diligence; 100% smelter traceability for lithium, nickel and cobalt.",
+                "href": null,
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/due-diligence",
                 "id": "038",
                 "label": "Information of due diligence report",
-                "locked": false,
-                "value": "View document"
+                "value": "View document",
+                "href": "https://passport.wattsonic.com/docs/due-diligence",
+                "locked": false
               },
               {
-                "href": null,
                 "id": "039",
                 "label": "Third party assurances of recognised schemes",
-                "locked": true,
-                "value": "Authorization required"
+                "value": "Authorization required",
+                "href": null,
+                "locked": true
               }
-            ],
-            "title": "Responsible sourcing"
+            ]
           }
-        ],
-        "title": "Materials & carbon"
+        ]
       },
       "3": {
+        "title": "Usage & health",
         "sections": [
           {
+            "title": "State and charge",
             "fields": [
               {
-                "href": null,
                 "id": "018",
                 "label": "Date of putting the battery into service",
-                "locked": false,
-                "value": "Apr 2027"
+                "value": "Apr 2027",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "022",
                 "label": "Battery status",
-                "locked": false,
-                "value": "In service"
+                "value": "In service",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "063",
                 "label": "State of Charge (SoC)",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "062",
                 "label": "State of certified energy (SOCE)",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "State and charge"
+            ]
           },
           {
+            "title": "Capacity and fade",
             "fields": [
               {
-                "href": null,
                 "id": "058",
                 "label": "Remaining capacity",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "059",
                 "label": "Capacity fade",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "061",
                 "label": "Remaining usable battery energy",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "086",
                 "label": "Capacity threshold for exhaustion",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "Capacity and fade"
+            ]
           },
           {
+            "title": "Power and efficiency",
             "fields": [
               {
-                "href": null,
                 "id": "068",
                 "label": "Remaining power capability",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "069",
                 "label": "Power fade",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "073",
                 "label": "Remaining round trip energy efficiency",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "074",
                 "label": "Energy round trip efficiency fade",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "Power and efficiency"
+            ]
           },
           {
+            "title": "Resistance and self-discharge",
             "fields": [
               {
-                "href": null,
                 "id": "076",
                 "label": "Current self-discharge rate",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "077",
                 "label": "Evolution of self-discharge rates",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "079",
                 "label": "Internal resistance increase of pack (cell and module recommended)",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "080",
                 "label": "Present internal resistance of pack",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "Resistance and self-discharge"
+            ]
           },
           {
+            "title": "Cycles and events",
             "fields": [
               {
-                "href": null,
                 "id": "083",
                 "label": "Number of full charging and discharging cycles",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "087",
                 "label": "Temperature information",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "090",
                 "label": "Number of deep discharge events",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "091",
                 "label": "Number of overcharge events",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "092",
                 "label": "Information on accidents",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "Cycles and events"
+            ]
           }
-        ],
-        "title": "Usage & health"
+        ]
       },
       "4": {
+        "title": "Compliance & recycling",
         "sections": [
           {
+            "title": "Product compliance",
             "fields": [
               {
-                "href": "https://passport.wattsonic.com/docs/eu-doc",
                 "id": "028",
                 "label": "EU declaration of conformity",
-                "locked": false,
-                "value": "View document"
+                "value": "View document",
+                "href": "https://passport.wattsonic.com/docs/eu-doc",
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/separate-collection",
                 "id": "023",
                 "label": "Separate collection symbol",
-                "locked": false,
-                "value": "View document"
+                "value": "View document",
+                "href": "https://passport.wattsonic.com/docs/separate-collection",
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/cd-pb-symbols",
                 "id": "024",
                 "label": "Symbols for cadmium and lead",
-                "locked": false,
-                "value": "View document"
+                "value": "View document",
+                "href": "https://passport.wattsonic.com/docs/cd-pb-symbols",
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/carbon-label",
                 "id": "025",
                 "label": "Carbon footprint label",
-                "locked": false,
-                "value": "View document"
+                "value": "View document",
+                "href": "https://passport.wattsonic.com/docs/carbon-label",
+                "locked": false
               },
               {
-                "href": null,
                 "id": "026",
                 "label": "Extinguishing agent",
-                "locked": false,
-                "value": "Water mist, dry powder, CO₂"
+                "value": "Water mist, dry powder, CO₂",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "027",
                 "label": "Meaning of labels and symbols",
-                "locked": false,
-                "value": "Recycle symbol; Pb and Cd warning symbols; CE mark"
+                "value": "Recycle symbol; Pb and Cd warning symbols; CE mark",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "029",
                 "label": "Results of test reports proving compliance",
-                "locked": true,
-                "value": "Authorization required"
+                "value": "Authorization required",
+                "href": null,
+                "locked": true
               }
-            ],
-            "title": "Product compliance"
+            ]
           },
           {
+            "title": "Safety and handling",
             "fields": [
               {
-                "href": null,
                 "id": "045",
                 "label": "Dismantling information: Manuals for the removal and the disassembly of the battery pack",
-                "locked": true,
-                "value": "Authorization required"
+                "value": "Authorization required",
+                "href": null,
+                "locked": true
               },
               {
-                "href": "https://passport.wattsonic.com/docs/component-parts",
                 "id": "046",
                 "label": "Part numbers for components",
-                "locked": false,
-                "value": "View document"
+                "value": "View document",
+                "href": "https://passport.wattsonic.com/docs/component-parts",
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/spare-parts",
                 "id": "047",
                 "label": "Information on sources of spare parts",
-                "locked": false,
-                "value": "View document"
+                "value": "View document",
+                "href": "https://passport.wattsonic.com/docs/spare-parts",
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/safety-measures",
                 "id": "048",
                 "label": "Safety measures",
-                "locked": false,
-                "value": "View document"
+                "value": "View document",
+                "href": "https://passport.wattsonic.com/docs/safety-measures",
+                "locked": false
               }
-            ],
-            "title": "Safety and handling"
+            ]
           },
           {
+            "title": "Take-back & collection",
             "fields": [
               {
-                "href": "https://passport.wattsonic.com/docs/collection-network",
                 "id": "056",
                 "label": "Information on battery collection, preparation for second life and on treatment at end of life",
-                "locked": false,
-                "value": "View document"
+                "value": "View document",
+                "href": "https://passport.wattsonic.com/docs/collection-network",
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/end-user-waste-prevention",
                 "id": "054",
                 "label": "Information on the role of end-users in contributing to waste prevention",
-                "locked": false,
-                "value": "View document"
+                "value": "View document",
+                "href": "https://passport.wattsonic.com/docs/end-user-waste-prevention",
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/end-user-collection",
                 "id": "055",
                 "label": "Information on the role of end-users in contributing to the separate collection of waste batteries",
-                "locked": false,
-                "value": "View document"
+                "value": "View document",
+                "href": "https://passport.wattsonic.com/docs/end-user-collection",
+                "locked": false
               }
-            ],
-            "title": "Take-back & collection"
+            ]
           }
-        ],
-        "title": "Compliance & recycling"
+        ]
       }
     }
   },
@@ -1551,773 +1585,790 @@
     "header": "Zum Batteriepass springen\nW\nWattsonic\nDigitaler Batteriepass\nAnzeigesprache auswählen\n中文\nEnglish\nDeutsch\nPDF herunterladen\nEU Digitaler Produktpass\nWattsonic Li-LV 5.0\nEindeutige Batteriepasskennung / eindeutige DPP-Kennung\nDPP-2027-A001\nBatterieseriennummer\nA001\nDPP-Status\nAktiv\nEU 2023/1542\nZeitpunkt der letzten Aktualisierung des DPP 23. Okt. 2026, 16:47\nZertifizierte nutzbare Batterieenergie\n5.12\nkWh\nNennspannung\n51.2\nV\nNennkapazität\n100\nAh\nErwartete Lebensdauer (Anzahl der Lade-/Entladezyklen)\n6.000\nZyklen\nBatteriegewicht\n62\nkg\nBatterieinformationen\nLeistung\nMaterialien & CO₂\nNutzung & Gesundheit\nKonformität & Recycling\nKonformität & Recycling\nIn dieser Kategorie suchen\nProduktkonformität\nKonformitätserklärung\nDokument ansehen\nSymbol für getrennte Sammlung\nDokument ansehen\nCadmium- und Bleisymbole\nDokument ansehen\nCO₂-Fußabdrucketikett\nDokument ansehen\nGeeignete Löschmittel\nWassernebel, Trockenpulver, CO₂\nBedeutung von Kennzeichnungen und Symbolen\nRecycling-Symbol; Pb- und Cd-Warnzeichen; CE-Kennzeichnung\nPrüfberichtsergebnisse\nAutorisierung erforderlich\nSicherheit und Entsorgung\nDemontageanleitung des Batteriepacks\nAutorisierung erforderlich\nKomponenten-Teilenummern\nDokument ansehen\nKontakt des Ersatzteilherstellers\nDokument ansehen\nSicherheitsmaßnahmen\nDokument ansehen\nRücknahme & Sammlung\nSammel- und Behandlungssysteme\nDokument ansehen\nRolle der Endnutzer bei der Abfallvermeidung\nDokument ansehen\nRolle der Endnutzer bei der getrennten Sammlung\nDokument ansehen",
     "panels": {
       "0": {
+        "title": "Batterieinformationen",
         "sections": [
           {
+            "title": "Passidentität",
             "fields": [
               {
-                "href": null,
                 "id": "005",
                 "label": "Eindeutige Passkennung",
+                "value": "DPP-2027-A001",
+                "href": null,
                 "locked": false,
-                "value": "DPP-2027-A001"
+                "mono": true
               },
               {
-                "href": null,
                 "id": "006",
                 "label": "Eindeutige Batteriekennung",
+                "value": "01 06901234567892 21 A001",
+                "href": null,
                 "locked": false,
-                "value": "01 06901234567892 21 A001"
+                "mono": true
               },
               {
-                "href": null,
                 "id": "011",
                 "label": "Batterieseriennummer",
+                "value": "A001",
+                "href": null,
                 "locked": false,
-                "value": "A001"
+                "mono": true
               },
               {
-                "href": null,
                 "id": "010",
                 "label": "Batteriemodellkennung",
+                "value": "WTS-LiLV-5.12",
+                "href": null,
                 "locked": false,
-                "value": "WTS-LiLV-5.12"
+                "mono": true
               },
               {
-                "href": null,
                 "id": "002",
                 "label": "DPP-Status",
+                "value": "Aktiv",
+                "href": null,
                 "locked": false,
-                "value": "Aktiv"
+                "emphasis": true
               },
               {
-                "href": null,
                 "id": "003",
                 "label": "DPP-Granularität",
-                "locked": false,
-                "value": "Einzelstück"
+                "value": "Einzelstück",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "009",
                 "label": "Inhaltsspezifikationskennungen",
+                "value": "Wattsonic-DPP-Schema-v1.2\nEN 18219",
+                "href": null,
                 "locked": false,
-                "value": "Wattsonic-DPP-Schema-v1.2\nEN 18219"
+                "chips": true,
+                "emphasis": true
               },
               {
-                "href": null,
                 "id": "004",
                 "label": "Letzte Passaktualisierung",
-                "locked": false,
-                "value": "23. Okt. 2026, 16:47"
+                "value": "23. Okt. 2026, 16:47",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "001",
                 "label": "DPP-Schemaversion",
+                "value": "1.2",
+                "href": null,
                 "locked": false,
-                "value": "1.2"
+                "mono": true
               }
-            ],
-            "title": "Passidentität"
+            ]
           },
           {
+            "title": "Physikalische und chemische Eigenschaften",
             "fields": [
               {
-                "href": null,
                 "id": "020",
                 "label": "Batteriekategorie",
-                "locked": false,
-                "value": "Industriebatterie (>2 kWh)"
+                "value": "Industriebatterie (>2 kWh)",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "041",
                 "label": "Batteriechemie",
-                "locked": false,
-                "value": "LFP (Lithium-Eisenphosphat)"
+                "value": "LFP (Lithium-Eisenphosphat)",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "Physikalische und chemische Eigenschaften"
+            ]
           },
           {
+            "title": "Hersteller und Akteure",
             "fields": [
               {
-                "href": null,
                 "id": "015",
                 "label": "Herstellerinformationen",
+                "value": "Wattsonic Technology Co., Ltd.\nBuilding 5, High-Tech Park, Nanshan District, Shenzhen 518000, China\nBrand: Wattsonic\nWebsite: https://www.wattsonic.com\nEmail: info@wattsonic.com",
+                "href": null,
                 "locked": false,
-                "value": "Wattsonic Technology Co., Ltd.\nBuilding 5, High-Tech Park, Nanshan District, Shenzhen 518000, China\nBrand: Wattsonic\nWebsite: https://www.wattsonic.com\nEmail: info@wattsonic.com"
+                "emphasis": true
               },
               {
-                "href": null,
                 "id": "012",
                 "label": "Eindeutige Herstellerkennung",
+                "value": "6901234567892",
+                "href": null,
                 "locked": false,
-                "value": "6901234567892"
+                "mono": true
               },
               {
-                "href": null,
                 "id": "013",
                 "label": "Drittanbieter",
-                "locked": false,
-                "value": "Wattsonic Service Europe GmbH"
+                "value": "Wattsonic Service Europe GmbH",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "007",
                 "label": "Kennung des Wirtschaftsakteurs",
+                "value": "4006381333931",
+                "href": null,
                 "locked": false,
-                "value": "4006381333931"
+                "mono": true
               },
               {
-                "href": null,
                 "id": "014",
                 "label": "Informationen zum Wirtschaftsakteur",
+                "value": "Company: ABC Energy GmbH\nRegistered address: Potsdamer Platz 10, 10785 Berlin, Germany\nWebsite: https://abc-energy.example\nEmail: compliance@abc-energy.example\nPhone: +49 30 1234 5678\nRole: Importer",
+                "href": null,
                 "locked": false,
-                "value": "Company: ABC Energy GmbH\nRegistered address: Potsdamer Platz 10, 10785 Berlin, Germany\nWebsite: https://abc-energy.example\nEmail: compliance@abc-energy.example\nPhone: +49 30 1234 5678\nRole: Importer"
+                "emphasis": true
               }
-            ],
-            "title": "Hersteller und Akteure"
+            ]
           },
           {
+            "title": "Produktion und Garantie",
             "fields": [
               {
-                "href": null,
                 "id": "016",
                 "label": "Herstellungsort",
-                "locked": false,
-                "value": "Produktionsstandort Shenzhen, Guangdong, China"
+                "value": "Produktionsstandort Shenzhen, Guangdong, China",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "008",
                 "label": "Eindeutige Standortkennung",
+                "value": "6901234567892",
+                "href": null,
                 "locked": false,
-                "value": "6901234567892"
+                "mono": true
               },
               {
-                "href": null,
                 "id": "017",
                 "label": "Herstellungsdatum",
-                "locked": false,
-                "value": "Feb. 2027"
+                "value": "Feb. 2027",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "Produktion und Garantie"
+            ]
           }
-        ],
-        "title": "Batterieinformationen"
+        ]
       },
       "1": {
+        "title": "Leistung",
         "sections": [
           {
+            "title": "Elektrische Leistung",
             "fields": [
               {
-                "href": null,
                 "id": "057",
                 "label": "Nennkapazität",
-                "locked": false,
-                "value": "100 Ah"
+                "value": "100 Ah",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "060",
                 "label": "Zertifizierte nutzbare Batterieenergie",
-                "locked": false,
-                "value": "5.12 kWh"
+                "value": "5.12 kWh",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "066",
                 "label": "Nennspannung",
-                "locked": false,
-                "value": "51.2 V"
+                "value": "51.2 V",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "064",
                 "label": "Mindestspannung",
-                "locked": false,
-                "value": "40 V"
+                "value": "40 V",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "065",
                 "label": "Höchstspannung",
-                "locked": false,
-                "value": "58.4 V"
+                "value": "58.4 V",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "067",
                 "label": "Ursprüngliche Leistungsfähigkeit",
-                "locked": false,
-                "value": "5120 W"
+                "value": "5120 W",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "070",
                 "label": "Maximal zulässige Batterieleistung",
-                "locked": false,
-                "value": "5632 W"
+                "value": "5632 W",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "021",
                 "label": "Batteriegewicht",
-                "locked": false,
-                "value": "62 kg"
+                "value": "62 kg",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "Elektrische Leistung"
+            ]
           },
           {
+            "title": "Energieeffizienz",
             "fields": [
               {
-                "href": null,
                 "id": "071",
                 "label": "Anfänglicher Gesamtwirkungsgrad",
-                "locked": false,
-                "value": "95%"
+                "value": "95%",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "072",
                 "label": "Gesamtwirkungsgrad bei 50 % Lebensdauer",
-                "locked": false,
-                "value": "92%"
+                "value": "92%",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "075",
                 "label": "Anfängliche Selbstentladungsrate",
-                "locked": false,
-                "value": "1.5%/month"
+                "value": "1.5%/month",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "Energieeffizienz"
+            ]
           },
           {
+            "title": "Lebensdauer und Grenzwerte",
             "fields": [
               {
-                "href": null,
                 "id": "078",
                 "label": "Anfänglicher Zell- und Packinnenwiderstand",
-                "locked": false,
-                "value": "25 mΩ"
+                "value": "25 mΩ",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "081",
                 "label": "Erwartete kalendarische Lebensdauer",
-                "locked": false,
-                "value": "10 years"
+                "value": "10 years",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "082",
                 "label": "Erwartete Lebensdauer (Anzahl der Lade-/Entladezyklen)",
-                "locked": false,
-                "value": "6000 Zyklen"
+                "value": "6000 Zyklen",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "084",
                 "label": "Prüfmethode für die Zyklenlebensdauer",
-                "locked": false,
-                "value": "IEC 62620 / IEC 62619"
+                "value": "IEC 62620 / IEC 62619",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "085",
                 "label": "C-Rate der Zyklenlebensdauerprüfung",
-                "locked": false,
-                "value": "0.5C"
+                "value": "0.5C",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "088",
                 "label": "Mindesttemperatur bei Nichtgebrauch",
-                "locked": false,
-                "value": "-10°C"
+                "value": "-10°C",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "089",
                 "label": "Höchsttemperatur bei Nichtgebrauch",
-                "locked": false,
-                "value": "45°C"
+                "value": "45°C",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "Lebensdauer und Grenzwerte"
+            ]
           },
           {
+            "title": "Garantiezeitraum",
             "fields": [
               {
-                "href": null,
                 "id": "019",
                 "label": "Gewerbliche Garantiezeit",
-                "locked": false,
-                "value": "10 Jahre oder 10.000 Zyklen, je nachdem, was zuerst eintritt"
+                "value": "10 Jahre oder 10.000 Zyklen, je nachdem, was zuerst eintritt",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "Garantiezeitraum"
+            ]
           }
-        ],
-        "title": "Leistung"
+        ]
       },
       "2": {
+        "title": "Materialien & CO₂",
         "sections": [
           {
+            "title": "Materialzusammensetzung",
             "fields": [
               {
-                "href": null,
                 "id": "042",
                 "label": "Kritische Rohstoffe",
+                "value": "Lithium\nGraphite\nCopper\nAluminium\nIron\nPhosphorus",
+                "href": null,
                 "locked": false,
-                "value": "Lithium\nGraphite\nCopper\nAluminium\nIron\nPhosphorus"
+                "chips": true,
+                "wide": true
               },
               {
-                "href": null,
                 "id": "043",
                 "label": "Elektroden- und Elektrolytmaterialien",
+                "value": "Cathode: LFP\nAnode: Graphite\nElectrolyte: LiPF6\nSeparator: PE",
+                "href": null,
                 "locked": false,
-                "value": "Cathode: LFP\nAnode: Graphite\nElectrolyte: LiPF6\nSeparator: PE"
+                "wide": true
               },
               {
-                "href": null,
                 "id": "044",
                 "label": "Gefährliche Stoffe und ihre Auswirkungen",
+                "value": "Lead: < 0.01%\nCadmium: < 0.002%\nMercury: < 0.0005%",
+                "href": null,
                 "locked": false,
-                "value": "Lead: < 0.01%\nCadmium: < 0.002%\nMercury: < 0.0005%"
+                "wide": true
               }
-            ],
-            "title": "Materialzusammensetzung"
+            ]
           },
           {
+            "title": "Recyclinganteil",
             "fields": [
               {
-                "href": null,
                 "id": "049",
                 "label": "Rezyklierter Nickelanteil",
-                "locked": false,
-                "value": "18%"
+                "value": "18%",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "050",
                 "label": "Rezyklierter Kobaltanteil",
-                "locked": false,
-                "value": "12%"
+                "value": "12%",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "051",
                 "label": "Rezyklierter Lithiumanteil",
-                "locked": false,
-                "value": "15%"
+                "value": "15%",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "052",
                 "label": "Rezyklierter Bleianteil",
-                "locked": false,
-                "value": "0%"
+                "value": "0%",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "053",
                 "label": "Anteil erneuerbarer Materialien",
-                "locked": false,
-                "value": "25%"
+                "value": "25%",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "Recyclinganteil"
+            ]
           },
           {
+            "title": "CO₂-Fußabdruck",
             "fields": [
               {
-                "href": null,
                 "id": "030",
                 "label": "CO₂-Fußabdruck je Funktionseinheit",
-                "locked": false,
-                "value": "65.0 kgCO2eq/kWh"
+                "value": "65.0 kgCO2eq/kWh",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "031",
                 "label": "Fußabdruck der Rohstoffgewinnung und Vorverarbeitung",
-                "locked": false,
-                "value": "28.4 kgCO2eq/kWh"
+                "value": "28.4 kgCO2eq/kWh",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "032",
                 "label": "Fußabdruck der Hauptproduktion",
-                "locked": false,
-                "value": "22.6 kgCO2eq/kWh"
+                "value": "22.6 kgCO2eq/kWh",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "033",
                 "label": "Fußabdruck der Distribution",
-                "locked": false,
-                "value": "6.8 kgCO2eq/kWh"
+                "value": "6.8 kgCO2eq/kWh",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "034",
                 "label": "Fußabdruck von Entsorgung und Recycling",
-                "locked": false,
-                "value": "7.2 kgCO2eq/kWh"
+                "value": "7.2 kgCO2eq/kWh",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "035",
                 "label": "CO₂-Fußabdruck-Leistungsklasse",
-                "locked": false,
-                "value": "A"
+                "value": "A",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "037",
                 "label": "Absoluter CO₂-Fußabdruck der Batterie",
-                "locked": false,
-                "value": "333 kgCO2eq"
+                "value": "333 kgCO2eq",
+                "href": null,
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/lca-study",
                 "id": "036",
                 "label": "Link zur CO₂-Fußabdruckstudie",
-                "locked": false,
-                "value": "Dokument ansehen"
+                "value": "Dokument ansehen",
+                "href": "https://passport.wattsonic.com/docs/lca-study",
+                "locked": false
               }
-            ],
-            "title": "CO₂-Fußabdruck"
+            ]
           },
           {
+            "title": "Verantwortungsvolle Beschaffung",
             "fields": [
               {
-                "href": null,
                 "id": "040",
                 "label": "Lieferkettenindikatoren",
-                "locked": false,
-                "value": "OECD-konforme Sorgfaltspflicht; 100 % Hüttenrückverfolgbarkeit für Lithium, Nickel und Kobalt."
+                "value": "OECD-konforme Sorgfaltspflicht; 100 % Hüttenrückverfolgbarkeit für Lithium, Nickel und Kobalt.",
+                "href": null,
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/due-diligence",
                 "id": "038",
                 "label": "Sorgfaltspflichtenstrategie",
-                "locked": false,
-                "value": "Dokument ansehen"
+                "value": "Dokument ansehen",
+                "href": "https://passport.wattsonic.com/docs/due-diligence",
+                "locked": false
               },
               {
-                "href": null,
                 "id": "039",
                 "label": "Prüfbescheinigung eines Dritten",
-                "locked": true,
-                "value": "Autorisierung erforderlich"
+                "value": "Autorisierung erforderlich",
+                "href": null,
+                "locked": true
               }
-            ],
-            "title": "Verantwortungsvolle Beschaffung"
+            ]
           }
-        ],
-        "title": "Materialien & CO₂"
+        ]
       },
       "3": {
+        "title": "Nutzung & Gesundheit",
         "sections": [
           {
+            "title": "Zustand und Ladung",
             "fields": [
               {
-                "href": null,
                 "id": "018",
                 "label": "Datum der Inbetriebnahme",
-                "locked": false,
-                "value": "Apr. 2027"
+                "value": "Apr. 2027",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "022",
                 "label": "Batterielebenszyklusstatus",
-                "locked": false,
-                "value": "In Betrieb"
+                "value": "In Betrieb",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "063",
                 "label": "Aktueller Ladezustand",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "062",
                 "label": "Zertifizierter Energiezustand",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "Zustand und Ladung"
+            ]
           },
           {
+            "title": "Kapazität und Verlust",
             "fields": [
               {
-                "href": null,
                 "id": "058",
                 "label": "Verbleibende Kapazität",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "059",
                 "label": "Kapazitätsverlust",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "061",
                 "label": "Verbleibende nutzbare Batterieenergie",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "086",
                 "label": "Kapazitätserschöpfungsschwelle",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "Kapazität und Verlust"
+            ]
           },
           {
+            "title": "Leistung und Effizienz",
             "fields": [
               {
-                "href": null,
                 "id": "068",
                 "label": "Verbleibende Leistungsfähigkeit",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "069",
                 "label": "Leistungsverlust",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "073",
                 "label": "Verbleibender Gesamtwirkungsgrad",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "074",
                 "label": "Verlust des Gesamtwirkungsgrads",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "Leistung und Effizienz"
+            ]
           },
           {
+            "title": "Widerstand und Selbstentladung",
             "fields": [
               {
-                "href": null,
                 "id": "076",
                 "label": "Aktuelle Selbstentladungsrate",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "077",
                 "label": "Entwicklung der Selbstentladung",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "079",
                 "label": "Zunahme des Packinnenwiderstands",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "080",
                 "label": "Aktueller Packinnenwiderstand",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "Widerstand und Selbstentladung"
+            ]
           },
           {
+            "title": "Zyklen und Ereignisse",
             "fields": [
               {
-                "href": null,
                 "id": "083",
                 "label": "Vollständige Lade-Entladezyklen",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "087",
                 "label": "Temperaturinformationen",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "090",
                 "label": "Anzahl der Tiefentladungen",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "091",
                 "label": "Anzahl der Überladungen",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "092",
                 "label": "Negative Ereignisse",
-                "locked": false,
-                "value": "--"
+                "value": "--",
+                "href": null,
+                "locked": false
               }
-            ],
-            "title": "Zyklen und Ereignisse"
+            ]
           }
-        ],
-        "title": "Nutzung & Gesundheit"
+        ]
       },
       "4": {
+        "title": "Konformität & Recycling",
         "sections": [
           {
+            "title": "Produktkonformität",
             "fields": [
               {
-                "href": "https://passport.wattsonic.com/docs/eu-doc",
                 "id": "028",
                 "label": "Konformitätserklärung",
-                "locked": false,
-                "value": "Dokument ansehen"
+                "value": "Dokument ansehen",
+                "href": "https://passport.wattsonic.com/docs/eu-doc",
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/separate-collection",
                 "id": "023",
                 "label": "Symbol für getrennte Sammlung",
-                "locked": false,
-                "value": "Dokument ansehen"
+                "value": "Dokument ansehen",
+                "href": "https://passport.wattsonic.com/docs/separate-collection",
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/cd-pb-symbols",
                 "id": "024",
                 "label": "Cadmium- und Bleisymbole",
-                "locked": false,
-                "value": "Dokument ansehen"
+                "value": "Dokument ansehen",
+                "href": "https://passport.wattsonic.com/docs/cd-pb-symbols",
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/carbon-label",
                 "id": "025",
                 "label": "CO₂-Fußabdrucketikett",
-                "locked": false,
-                "value": "Dokument ansehen"
+                "value": "Dokument ansehen",
+                "href": "https://passport.wattsonic.com/docs/carbon-label",
+                "locked": false
               },
               {
-                "href": null,
                 "id": "026",
                 "label": "Geeignete Löschmittel",
-                "locked": false,
-                "value": "Wassernebel, Trockenpulver, CO₂"
+                "value": "Wassernebel, Trockenpulver, CO₂",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "027",
                 "label": "Bedeutung von Kennzeichnungen und Symbolen",
-                "locked": false,
-                "value": "Recycling-Symbol; Pb- und Cd-Warnzeichen; CE-Kennzeichnung"
+                "value": "Recycling-Symbol; Pb- und Cd-Warnzeichen; CE-Kennzeichnung",
+                "href": null,
+                "locked": false
               },
               {
-                "href": null,
                 "id": "029",
                 "label": "Prüfberichtsergebnisse",
-                "locked": true,
-                "value": "Autorisierung erforderlich"
+                "value": "Autorisierung erforderlich",
+                "href": null,
+                "locked": true
               }
-            ],
-            "title": "Produktkonformität"
+            ]
           },
           {
+            "title": "Sicherheit und Entsorgung",
             "fields": [
               {
-                "href": null,
                 "id": "045",
                 "label": "Demontageanleitung des Batteriepacks",
-                "locked": true,
-                "value": "Autorisierung erforderlich"
+                "value": "Autorisierung erforderlich",
+                "href": null,
+                "locked": true
               },
               {
-                "href": "https://passport.wattsonic.com/docs/component-parts",
                 "id": "046",
                 "label": "Komponenten-Teilenummern",
-                "locked": false,
-                "value": "Dokument ansehen"
+                "value": "Dokument ansehen",
+                "href": "https://passport.wattsonic.com/docs/component-parts",
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/spare-parts",
                 "id": "047",
                 "label": "Kontakt des Ersatzteilherstellers",
-                "locked": false,
-                "value": "Dokument ansehen"
+                "value": "Dokument ansehen",
+                "href": "https://passport.wattsonic.com/docs/spare-parts",
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/safety-measures",
                 "id": "048",
                 "label": "Sicherheitsmaßnahmen",
-                "locked": false,
-                "value": "Dokument ansehen"
+                "value": "Dokument ansehen",
+                "href": "https://passport.wattsonic.com/docs/safety-measures",
+                "locked": false
               }
-            ],
-            "title": "Sicherheit und Entsorgung"
+            ]
           },
           {
+            "title": "Rücknahme & Sammlung",
             "fields": [
               {
-                "href": "https://passport.wattsonic.com/docs/collection-network",
                 "id": "056",
                 "label": "Sammel- und Behandlungssysteme",
-                "locked": false,
-                "value": "Dokument ansehen"
+                "value": "Dokument ansehen",
+                "href": "https://passport.wattsonic.com/docs/collection-network",
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/end-user-waste-prevention",
                 "id": "054",
                 "label": "Rolle der Endnutzer bei der Abfallvermeidung",
-                "locked": false,
-                "value": "Dokument ansehen"
+                "value": "Dokument ansehen",
+                "href": "https://passport.wattsonic.com/docs/end-user-waste-prevention",
+                "locked": false
               },
               {
-                "href": "https://passport.wattsonic.com/docs/end-user-collection",
                 "id": "055",
                 "label": "Rolle der Endnutzer bei der getrennten Sammlung",
-                "locked": false,
-                "value": "Dokument ansehen"
+                "value": "Dokument ansehen",
+                "href": "https://passport.wattsonic.com/docs/end-user-collection",
+                "locked": false
               }
-            ],
-            "title": "Rücknahme & Sammlung"
+            ]
           }
-        ],
-        "title": "Konformität & Recycling"
+        ]
       }
     }
   }
