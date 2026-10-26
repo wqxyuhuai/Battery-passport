@@ -1,0 +1,243 @@
+@page {
+  size: A4;
+  margin: 15mm 14mm 16mm;
+}
+
+.print-document {
+  display: none;
+}
+
+@media print {
+  html,
+  body {
+    background: #ffffff !important;
+    color: #111111 !important;
+  }
+
+  .app,
+  .skip-link {
+    display: none !important;
+  }
+
+  .print-document {
+    display: block;
+    max-width: none;
+    color: #161616;
+    font-family: 'SF Pro Text', 'SF Pro', 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', Arial, sans-serif;
+    font-size: 9.2pt;
+    line-height: 1.45;
+    letter-spacing: normal;
+  }
+
+  .print-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 10mm;
+    border-bottom: 1.5px solid #161616;
+  }
+
+  .print-brand {
+    display: flex;
+    align-items: center;
+    gap: 3mm;
+  }
+
+  .print-brand strong,
+  .print-brand span {
+    display: block;
+  }
+
+  .print-brand strong {
+    font-size: 11pt;
+    font-weight: 600;
+    letter-spacing: normal;
+  }
+
+  .print-brand span {
+    margin-top: 0.5mm;
+    color: #666666;
+    font-size: 8pt;
+  }
+
+  .print-stamp {
+    display: inline-flex;
+    align-items: center;
+    gap: 1.5mm;
+    padding: 1.6mm 3mm;
+    border: 1px solid #1f7a3a;
+    border-radius: 99px;
+    color: #1f7a3a;
+    font-size: 7.5pt;
+    font-weight: 600;
+  }
+
+  .print-eyebrow {
+    margin-top: 10mm;
+    color: #666666;
+    font-family: 'SF Pro Text', 'SF Pro', 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', Arial, sans-serif;
+    font-size: 7pt;
+    letter-spacing: normal;
+    text-transform: uppercase;
+  }
+
+  .print-title {
+    margin: 2mm 0 0;
+    font-family: 'SF Pro Display', 'SF Pro Text', 'SF Pro', 'PingFang SC', 'Microsoft YaHei', Arial,
+      sans-serif;
+    font-size: 24pt;
+    font-weight: 600;
+    line-height: 1.12;
+    letter-spacing: 0.015em;
+  }
+
+  .print-subtitle {
+    margin: 2.5mm 0 0;
+    color: #5a5a5a;
+    font-size: 9pt;
+    line-height: 1.5;
+  }
+
+  .print-identity {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0;
+    margin: 8mm 0 0;
+    padding: 4mm 0;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+  }
+
+  .print-identity div {
+    padding: 0 4mm;
+    border-left: 1px solid #e2e2e2;
+  }
+
+  .print-identity div:first-child {
+    padding-left: 0;
+    border-left: 0;
+  }
+
+  .print-identity dt {
+    color: #777777;
+    font-size: 7pt;
+    text-transform: uppercase;
+    letter-spacing: normal;
+  }
+
+  .print-identity dd {
+    margin: 1mm 0 0;
+    font-family: 'SF Pro Text', 'SF Pro', 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', Arial, sans-serif;
+    font-size: 8.5pt;
+    font-weight: 500;
+    line-height: 1.4;
+    word-break: break-word;
+  }
+
+  .print-metrics {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 2.5mm;
+    margin: 6mm 0 0;
+  }
+
+  .print-metric {
+    padding: 3mm;
+    border: 1px solid #dddddd;
+    border-radius: 2mm;
+  }
+
+  .print-metric span {
+    display: block;
+    color: #777777;
+    font-size: 6.8pt;
+    text-transform: uppercase;
+    letter-spacing: normal;
+  }
+
+  .print-metric strong {
+    display: block;
+    margin-top: 1.5mm;
+    font-family: 'SF Pro Display', 'SF Pro Text', 'SF Pro', 'PingFang SC', 'Microsoft YaHei', Arial,
+      sans-serif;
+    font-size: 13pt;
+    font-weight: 600;
+    letter-spacing: 0.015em;
+  }
+
+  .print-metric small {
+    color: #777777;
+    font-size: 7pt;
+    font-weight: 500;
+  }
+
+  .print-panel {
+    margin-top: 8mm;
+    break-inside: auto;
+  }
+
+  .print-panel > h2 {
+    margin: 0 0 3mm;
+    padding-bottom: 2mm;
+    border-bottom: 1px solid #242424;
+    font-family: 'SF Pro Text', 'SF Pro', 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', Arial, sans-serif;
+    font-size: 13pt;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: normal;
+  }
+
+  .print-section {
+    margin-top: 4mm;
+    break-inside: avoid;
+  }
+
+  .print-section h3 {
+    margin: 0 0 2mm;
+    color: #555555;
+    font-family: 'SF Pro Text', 'SF Pro', 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', Arial, sans-serif;
+    font-size: 8pt;
+    font-weight: 600;
+    line-height: 1.35;
+    text-transform: uppercase;
+    letter-spacing: normal;
+  }
+
+  .print-fields {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0 6mm;
+  }
+
+  .print-field {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.4mm;
+    padding: 2mm 0;
+    border-bottom: 1px solid #ebebeb;
+    break-inside: avoid;
+  }
+
+  .print-field-label {
+    color: #777777;
+    font-size: 7pt;
+    line-height: 1.35;
+  }
+
+  .print-field-value {
+    font-size: 8.3pt;
+    line-height: 1.4;
+    word-break: break-word;
+  }
+
+  .print-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 5mm;
+    margin-top: 9mm;
+    padding-top: 3mm;
+    border-top: 1px solid #d8d8d8;
+    color: #777777;
+    font-size: 7pt;
+  }
+}
