@@ -1,6 +1,6 @@
 {
   "zh": {
-    "header": "跳到护照内容\nW\nWattsonic\n数字电池护照\n选择显示语言\n中文\nEnglish\nDeutsch\n下载 PDF\n欧盟数字产品护照\nWattsonic Li-LV 5.0\n护照唯一标识符\nDPP-2027-A001\n电池序列号\nA001\nDPP 状态\n有效\nEU 2023/1542\n护照数据更新时间 2026年10月23日 16:47\n认证可用电池能量\n5.12\nkWh\n标称电压\n51.2\nV\n额定容量\n100\nAh\n预计寿命（充放电循环次数）\n6,000\n次\n电池重量\n62\nkg\n电池信息\n性能\n材料与碳足迹\n使用与健康\n合规与回收\n合规与回收\n在当前分类中搜索\n产品合规\n符合性声明\n查看文件\n单独收集符号\n查看文件\n镉和铅化学符号\n查看文件\n碳足迹标签\n查看文件\n可用灭火剂\n水雾、干粉、二氧化碳\n标签和符号含义\n回收标识；铅、镉警示符号；CE 标识\n测试报告结果\n需要授权访问\n安全与处置\n电池包拆卸手册\n需要授权访问\n组件零件号\n查看文件\n备件生产者联系方式\n查看文件\n安全措施\n查看文件\n回收与收集\n收集和处理体系\n查看文件\n废物预防中的终端用户作用\n查看文件\n分类收集中的终端用户作用\n查看文件",
+    "productName": "Wattsonic Li-LV 5.0",
     "panels": {
       "0": {
         "title": "电池信息",
@@ -13,40 +13,35 @@
                 "label": "护照唯一标识符",
                 "value": "DPP-2027-A001",
                 "href": null,
-                "locked": false,
-                "mono": true
+                "locked": false
               },
               {
                 "id": "006",
                 "label": "电池唯一标识符",
                 "value": "01 06901234567892 21 A001",
                 "href": null,
-                "locked": false,
-                "mono": true
+                "locked": false
               },
               {
                 "id": "011",
                 "label": "电池序列号",
                 "value": "A001",
                 "href": null,
-                "locked": false,
-                "mono": true
+                "locked": false
               },
               {
                 "id": "010",
                 "label": "电池型号标识符",
                 "value": "WTS-LiLV-5.12",
                 "href": null,
-                "locked": false,
-                "mono": true
+                "locked": false
               },
               {
                 "id": "002",
                 "label": "DPP 状态",
                 "value": "有效",
                 "href": null,
-                "locked": false,
-                "emphasis": true
+                "locked": false
               },
               {
                 "id": "003",
@@ -61,8 +56,7 @@
                 "value": "Wattsonic-DPP-Schema-v1.2\nEN 18219",
                 "href": null,
                 "locked": false,
-                "chips": true,
-                "emphasis": true
+                "chips": true
               },
               {
                 "id": "004",
@@ -76,8 +70,7 @@
                 "label": "DPP Schema 版本",
                 "value": "1.2",
                 "href": null,
-                "locked": false,
-                "mono": true
+                "locked": false
               }
             ]
           },
@@ -108,16 +101,14 @@
                 "label": "制造商信息",
                 "value": "Wattsonic Technology Co., Ltd.\nBuilding 5, High-Tech Park, Nanshan District, Shenzhen 518000, China\nBrand: Wattsonic\nWebsite: https://www.wattsonic.com\nEmail: info@wattsonic.com",
                 "href": null,
-                "locked": false,
-                "emphasis": true
+                "locked": false
               },
               {
                 "id": "012",
                 "label": "制造商唯一标识符",
                 "value": "6901234567892",
                 "href": null,
-                "locked": false,
-                "mono": true
+                "locked": false
               },
               {
                 "id": "013",
@@ -131,16 +122,14 @@
                 "label": "经济经营者标识",
                 "value": "4006381333931",
                 "href": null,
-                "locked": false,
-                "mono": true
+                "locked": false
               },
               {
                 "id": "014",
                 "label": "经济经营者信息",
                 "value": "Company: ABC Energy GmbH\nRegistered address: Potsdamer Platz 10, 10785 Berlin, Germany\nWebsite: https://abc-energy.example\nEmail: compliance@abc-energy.example\nPhone: +49 30 1234 5678\nRole: Importer",
                 "href": null,
-                "locked": false,
-                "emphasis": true
+                "locked": false
               }
             ]
           },
@@ -159,8 +148,7 @@
                 "label": "设施唯一标识符",
                 "value": "6901234567892",
                 "href": null,
-                "locked": false,
-                "mono": true
+                "locked": false
               },
               {
                 "id": "017",
@@ -343,24 +331,21 @@
                 "value": "Lithium\nGraphite\nCopper\nAluminium\nIron\nPhosphorus",
                 "href": null,
                 "locked": false,
-                "chips": true,
-                "wide": true
+                "chips": true
               },
               {
                 "id": "043",
                 "label": "正极、负极和电解液材料",
                 "value": "Cathode: LFP\nAnode: Graphite\nElectrolyte: LiPF6\nSeparator: PE",
                 "href": null,
-                "locked": false,
-                "wide": true
+                "locked": false
               },
               {
                 "id": "044",
                 "label": "有害物质及其影响",
                 "value": "Lead: < 0.01%\nCadmium: < 0.002%\nMercury: < 0.0005%",
                 "href": null,
-                "locked": false,
-                "wide": true
+                "locked": false
               }
             ]
           },
@@ -791,7 +776,7 @@
     }
   },
   "en": {
-    "header": "Skip to passport content\nW\nWattsonic\nDigital Battery Passport\nSelect display language\n中文\nEnglish\nDeutsch\nDownload PDF\nEU Digital Product Passport\nWattsonic Li-LV 5.0\nUnique battery passport identifier / unique DPP identifier\nDPP-2027-A001\nBattery serial number\nA001\nDPP Status\nActive\nEU 2023/1542\nDate-time of latest update of DPP 23 Oct 2026, 16:47\nCertified usable battery energy\n5.12\nkWh\nNominal voltage\n51.2\nV\nRated capacity\n100\nAh\nExpected lifetime (Number of charge-discharge cycles)\n6,000\ncycles\nBattery weight\n62\nkg\nBattery information\nPerformance\nMaterials & carbon\nUsage & health\nCompliance & recycling\nCompliance & recycling\nSearch this category\nProduct compliance\nEU declaration of conformity\nView document\nSeparate collection symbol\nView document\nSymbols for cadmium and lead\nView document\nCarbon footprint label\nView document\nExtinguishing agent\nWater mist, dry powder, CO₂\nMeaning of labels and symbols\nRecycle symbol; Pb and Cd warning symbols; CE mark\nResults of test reports proving compliance\nAuthorization required\nSafety and handling\nDismantling information: Manuals for the removal and the disassembly of the battery pack\nAuthorization required\nPart numbers for components\nView document\nInformation on sources of spare parts\nView document\nSafety measures\nView document\nTake-back & collection\nInformation on battery collection, preparation for second life and on treatment at end of life\nView document\nInformation on the role of end-users in contributing to waste prevention\nView document\nInformation on the role of end-users in contributing to the separate collection of waste batteries\nView document",
+    "productName": "Wattsonic Li-LV 5.0",
     "panels": {
       "0": {
         "title": "Battery information",
@@ -804,40 +789,35 @@
                 "label": "Unique battery passport identifier / unique DPP identifier",
                 "value": "DPP-2027-A001",
                 "href": null,
-                "locked": false,
-                "mono": true
+                "locked": false
               },
               {
                 "id": "006",
                 "label": "Unique battery identifier / unique product identifier",
                 "value": "01 06901234567892 21 A001",
                 "href": null,
-                "locked": false,
-                "mono": true
+                "locked": false
               },
               {
                 "id": "011",
                 "label": "Battery serial number",
                 "value": "A001",
                 "href": null,
-                "locked": false,
-                "mono": true
+                "locked": false
               },
               {
                 "id": "010",
                 "label": "Battery model identifier",
                 "value": "WTS-LiLV-5.12",
                 "href": null,
-                "locked": false,
-                "mono": true
+                "locked": false
               },
               {
                 "id": "002",
                 "label": "DPP Status",
                 "value": "Active",
                 "href": null,
-                "locked": false,
-                "emphasis": true
+                "locked": false
               },
               {
                 "id": "003",
@@ -852,8 +832,7 @@
                 "value": "Wattsonic-DPP-Schema-v1.2\nEN 18219",
                 "href": null,
                 "locked": false,
-                "chips": true,
-                "emphasis": true
+                "chips": true
               },
               {
                 "id": "004",
@@ -867,8 +846,7 @@
                 "label": "DPP Schema version",
                 "value": "1.2",
                 "href": null,
-                "locked": false,
-                "mono": true
+                "locked": false
               }
             ]
           },
@@ -899,16 +877,14 @@
                 "label": "Manufacturer information",
                 "value": "Wattsonic Technology Co., Ltd.\nBuilding 5, High-Tech Park, Nanshan District, Shenzhen 518000, China\nBrand: Wattsonic\nWebsite: https://www.wattsonic.com\nEmail: info@wattsonic.com",
                 "href": null,
-                "locked": false,
-                "emphasis": true
+                "locked": false
               },
               {
                 "id": "012",
                 "label": "Unique manufacturer identifier",
                 "value": "6901234567892",
                 "href": null,
-                "locked": false,
-                "mono": true
+                "locked": false
               },
               {
                 "id": "013",
@@ -922,16 +898,14 @@
                 "label": "Unique economic operator identifier",
                 "value": "4006381333931",
                 "href": null,
-                "locked": false,
-                "mono": true
+                "locked": false
               },
               {
                 "id": "014",
                 "label": "Economic operator information",
                 "value": "Company: ABC Energy GmbH\nRegistered address: Potsdamer Platz 10, 10785 Berlin, Germany\nWebsite: https://abc-energy.example\nEmail: compliance@abc-energy.example\nPhone: +49 30 1234 5678\nRole: Importer",
                 "href": null,
-                "locked": false,
-                "emphasis": true
+                "locked": false
               }
             ]
           },
@@ -950,8 +924,7 @@
                 "label": "Unique facility identifier",
                 "value": "6901234567892",
                 "href": null,
-                "locked": false,
-                "mono": true
+                "locked": false
               },
               {
                 "id": "017",
@@ -1134,24 +1107,21 @@
                 "value": "Lithium\nGraphite\nCopper\nAluminium\nIron\nPhosphorus",
                 "href": null,
                 "locked": false,
-                "chips": true,
-                "wide": true
+                "chips": true
               },
               {
                 "id": "043",
                 "label": "Materials used in cathode, anode and electrolyte",
                 "value": "Cathode: LFP\nAnode: Graphite\nElectrolyte: LiPF6\nSeparator: PE",
                 "href": null,
-                "locked": false,
-                "wide": true
+                "locked": false
               },
               {
                 "id": "044",
                 "label": "Hazardous substances and their impact",
                 "value": "Lead: < 0.01%\nCadmium: < 0.002%\nMercury: < 0.0005%",
                 "href": null,
-                "locked": false,
-                "wide": true
+                "locked": false
               }
             ]
           },
@@ -1582,7 +1552,7 @@
     }
   },
   "de": {
-    "header": "Zum Batteriepass springen\nW\nWattsonic\nDigitaler Batteriepass\nAnzeigesprache auswählen\n中文\nEnglish\nDeutsch\nPDF herunterladen\nEU Digitaler Produktpass\nWattsonic Li-LV 5.0\nEindeutige Batteriepasskennung / eindeutige DPP-Kennung\nDPP-2027-A001\nBatterieseriennummer\nA001\nDPP-Status\nAktiv\nEU 2023/1542\nZeitpunkt der letzten Aktualisierung des DPP 23. Okt. 2026, 16:47\nZertifizierte nutzbare Batterieenergie\n5.12\nkWh\nNennspannung\n51.2\nV\nNennkapazität\n100\nAh\nErwartete Lebensdauer (Anzahl der Lade-/Entladezyklen)\n6.000\nZyklen\nBatteriegewicht\n62\nkg\nBatterieinformationen\nLeistung\nMaterialien & CO₂\nNutzung & Gesundheit\nKonformität & Recycling\nKonformität & Recycling\nIn dieser Kategorie suchen\nProduktkonformität\nKonformitätserklärung\nDokument ansehen\nSymbol für getrennte Sammlung\nDokument ansehen\nCadmium- und Bleisymbole\nDokument ansehen\nCO₂-Fußabdrucketikett\nDokument ansehen\nGeeignete Löschmittel\nWassernebel, Trockenpulver, CO₂\nBedeutung von Kennzeichnungen und Symbolen\nRecycling-Symbol; Pb- und Cd-Warnzeichen; CE-Kennzeichnung\nPrüfberichtsergebnisse\nAutorisierung erforderlich\nSicherheit und Entsorgung\nDemontageanleitung des Batteriepacks\nAutorisierung erforderlich\nKomponenten-Teilenummern\nDokument ansehen\nKontakt des Ersatzteilherstellers\nDokument ansehen\nSicherheitsmaßnahmen\nDokument ansehen\nRücknahme & Sammlung\nSammel- und Behandlungssysteme\nDokument ansehen\nRolle der Endnutzer bei der Abfallvermeidung\nDokument ansehen\nRolle der Endnutzer bei der getrennten Sammlung\nDokument ansehen",
+    "productName": "Wattsonic Li-LV 5.0",
     "panels": {
       "0": {
         "title": "Batterieinformationen",
@@ -1595,40 +1565,35 @@
                 "label": "Eindeutige Passkennung",
                 "value": "DPP-2027-A001",
                 "href": null,
-                "locked": false,
-                "mono": true
+                "locked": false
               },
               {
                 "id": "006",
                 "label": "Eindeutige Batteriekennung",
                 "value": "01 06901234567892 21 A001",
                 "href": null,
-                "locked": false,
-                "mono": true
+                "locked": false
               },
               {
                 "id": "011",
                 "label": "Batterieseriennummer",
                 "value": "A001",
                 "href": null,
-                "locked": false,
-                "mono": true
+                "locked": false
               },
               {
                 "id": "010",
                 "label": "Batteriemodellkennung",
                 "value": "WTS-LiLV-5.12",
                 "href": null,
-                "locked": false,
-                "mono": true
+                "locked": false
               },
               {
                 "id": "002",
                 "label": "DPP-Status",
                 "value": "Aktiv",
                 "href": null,
-                "locked": false,
-                "emphasis": true
+                "locked": false
               },
               {
                 "id": "003",
@@ -1643,8 +1608,7 @@
                 "value": "Wattsonic-DPP-Schema-v1.2\nEN 18219",
                 "href": null,
                 "locked": false,
-                "chips": true,
-                "emphasis": true
+                "chips": true
               },
               {
                 "id": "004",
@@ -1658,8 +1622,7 @@
                 "label": "DPP-Schemaversion",
                 "value": "1.2",
                 "href": null,
-                "locked": false,
-                "mono": true
+                "locked": false
               }
             ]
           },
@@ -1690,16 +1653,14 @@
                 "label": "Herstellerinformationen",
                 "value": "Wattsonic Technology Co., Ltd.\nBuilding 5, High-Tech Park, Nanshan District, Shenzhen 518000, China\nBrand: Wattsonic\nWebsite: https://www.wattsonic.com\nEmail: info@wattsonic.com",
                 "href": null,
-                "locked": false,
-                "emphasis": true
+                "locked": false
               },
               {
                 "id": "012",
                 "label": "Eindeutige Herstellerkennung",
                 "value": "6901234567892",
                 "href": null,
-                "locked": false,
-                "mono": true
+                "locked": false
               },
               {
                 "id": "013",
@@ -1713,16 +1674,14 @@
                 "label": "Kennung des Wirtschaftsakteurs",
                 "value": "4006381333931",
                 "href": null,
-                "locked": false,
-                "mono": true
+                "locked": false
               },
               {
                 "id": "014",
                 "label": "Informationen zum Wirtschaftsakteur",
                 "value": "Company: ABC Energy GmbH\nRegistered address: Potsdamer Platz 10, 10785 Berlin, Germany\nWebsite: https://abc-energy.example\nEmail: compliance@abc-energy.example\nPhone: +49 30 1234 5678\nRole: Importer",
                 "href": null,
-                "locked": false,
-                "emphasis": true
+                "locked": false
               }
             ]
           },
@@ -1741,8 +1700,7 @@
                 "label": "Eindeutige Standortkennung",
                 "value": "6901234567892",
                 "href": null,
-                "locked": false,
-                "mono": true
+                "locked": false
               },
               {
                 "id": "017",
@@ -1925,24 +1883,21 @@
                 "value": "Lithium\nGraphite\nCopper\nAluminium\nIron\nPhosphorus",
                 "href": null,
                 "locked": false,
-                "chips": true,
-                "wide": true
+                "chips": true
               },
               {
                 "id": "043",
                 "label": "Elektroden- und Elektrolytmaterialien",
                 "value": "Cathode: LFP\nAnode: Graphite\nElectrolyte: LiPF6\nSeparator: PE",
                 "href": null,
-                "locked": false,
-                "wide": true
+                "locked": false
               },
               {
                 "id": "044",
                 "label": "Gefährliche Stoffe und ihre Auswirkungen",
                 "value": "Lead: < 0.01%\nCadmium: < 0.002%\nMercury: < 0.0005%",
                 "href": null,
-                "locked": false,
-                "wide": true
+                "locked": false
               }
             ]
           },

@@ -35,13 +35,11 @@
 /* ---------- Tokens ---------- */
 
 :root {
-  --canvas: #1c1c1e;
+  --canvas: #161618;
   --fill-card: #28282a;
   --fill-control: #313134;
   --fill-hover: #39393c;
   --fill-selected: #333336;
-  --surface: #232325;
-  --surface-raised: #303033;
   --surface-hover: rgba(255, 255, 255, 0.055);
   --hairline: rgba(255, 255, 255, 0.085);
   --hairline-strong: rgba(255, 255, 255, 0.14);
@@ -52,7 +50,6 @@
   --primary: #5e6ad2;
   --primary-hover: #7d88e8;
   --success: #4bb568;
-  --radius-sm: 7px;
   --radius-md: 10px;
   --radius-lg: 14px;
   --page: 1240px;
@@ -155,18 +152,6 @@ svg {
   outline-offset: 3px;
 }
 
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
-
 .skip-link {
   position: fixed;
   z-index: 200;
@@ -207,7 +192,7 @@ svg {
   margin: 0;
   padding: 18px max(40px, calc((100% - var(--page)) / 2 + 40px));
   border-bottom: 1px solid var(--hairline);
-  background: rgba(28, 28, 30, 0.3);
+  background: rgba(22, 22, 24, 0.3);
   -webkit-backdrop-filter: blur(48px) saturate(230%);
   backdrop-filter: blur(48px) saturate(230%);
   transition: background-color var(--dur-3) var(--ease-out);
@@ -215,7 +200,7 @@ svg {
 }
 
 .topbar.is-scrolled {
-  background: rgba(28, 28, 30, 0.34);
+  background: rgba(22, 22, 24, 0.34);
 }
 
 .topbar-brand {
@@ -226,22 +211,19 @@ svg {
 }
 
 .topbar-brand .brand-mark {
-  transition: transform var(--dur-2) var(--ease-out), box-shadow var(--dur-2) var(--ease-out);
+  transition: transform var(--dur-2) var(--ease-out), filter var(--dur-2) var(--ease-out);
 }
 
 .topbar-brand:hover .brand-mark {
   transform: translateY(-1px);
-  box-shadow: 0 8px 22px rgba(94, 106, 210, 0.34);
+  filter: drop-shadow(0 7px 14px rgba(94, 106, 210, 0.42));
 }
 
 .brand-mark {
   display: grid;
   place-items: center;
   flex: 0 0 auto;
-  border-radius: 9px;
-  background: var(--primary);
-  color: #fff;
-  box-shadow: 0 6px 20px rgba(94, 106, 210, 0.28);
+  filter: drop-shadow(0 4px 9px rgba(94, 106, 210, 0.3));
 }
 
 .topbar-brand-copy {

@@ -1,11 +1,12 @@
 # Wattsonic · Digital Battery Passport
 
 An interactive, trilingual (中文 / English / Deutsch) digital battery passport for the
-**Wattsonic Li-LV 5.0** battery. The page presents verified lifecycle, performance,
-materials, health and compliance data in a single accessible document-like interface.
+**Wattsonic Li-LV 5.0** battery. It presents verified lifecycle, performance, materials,
+health and compliance data in one accessible, document-like interface.
 
-Built with React 19, TypeScript and Vite. No backend is required — the app is a fully
-static site and can be hosted on any static host.
+Built with React 19, TypeScript and Vite. The current build is a static site with demo
+content, structured so that a backend can supply the same payload without changing any
+presentational component.
 
 ## Stack
 
@@ -17,9 +18,10 @@ static site and can be hosted on any static host.
 
 ```bash
 npm install
-npm run dev       # http://localhost:5173
-npm run build     # production build -> dist/
-npm run preview   # preview the built site
+npm run dev            # http://localhost:5173
+npm run validate:data  # check the payload contract
+npm run build          # validate + type-check + production build -> dist/
+npm run preview        # preview the built site
 ```
 
 Requires Node.js 20 or newer.
@@ -27,15 +29,40 @@ Requires Node.js 20 or newer.
 ## Project structure
 
 ```text
-index.html              App shell
-src/App.tsx             Passport UI (tabs, language switcher, print layout)
-src/styles.css          Design system and layout
-src/print.css           Print stylesheet
-src/data/passport.ts    Typed passport data model and UI copy
-src/data/demo-data.json Demo passport record
-src/assets/fonts/       Self-hosted SF Pro webfonts
-public/favicon.svg      Favicon
+index.html                  App shell
+src/App.tsx                 Page composition, tab/language/search state, print trigger
+src/styles.css              Design system and screen layout
+src/print.css               Print-only document layout
+src/ui/                     Presentational components (no fetching)
+src/data/source.ts          The only module that knows where content comes from
+src/data/catalogue.ts       Payload -> per-language catalogue
+src/data/repository.ts      Read model: panels, panel(tab), field(id)
+src/data/schema.ts          Tab order, hero fields, presentation rules
+src/data/types.ts           Payload and read-model types
+src/data/copy.ts            Static UI copy for zh / en / de
+src/data/format.ts          Pure formatting and parsing helpers
+src/data/demo-data.json     Demo payload, same shape as the planned API response
+scripts/validate-data.mjs   Payload contract validator
+src/assets/fonts/           Self-hosted SF Pro webfonts
+public/favicon.svg          Favicon
 ```
+
+## Documentation
+
+- [Architecture](docs/ARCHITECTURE.md) — layers, runtime flow, accessibility, print
+- [Data integration](docs/DATA_INTEGRATION.md) — API contract and how to connect a backend
+- [Components](docs/COMPONENTS.md) — component responsibilities and conventions
+- [Design notes](DESIGN.md) — visual direction and interaction rules
+
+## Data status
+
+All content currently comes from `src/data/demo-data.json`. Field ids follow the EU
+battery-passport schema and are stable; some ids also drive the hero block and headline
+specs (see `src/data/schema.ts`). Run `npm run validate:data` after editing the payload.
+
+To connect real data, change `src/data/source.ts` only. The components already consume
+the read model, so no UI code needs to change. The full procedure, including error and
+loading states, is in [docs/DATA_INTEGRATION.md](docs/DATA_INTEGRATION.md).
 
 ## Deployment
 
@@ -65,11 +92,12 @@ Suggested custom domain: `passport.carlwang.cn`.
 
 ## Notes
 
-- The repository contains demo data only. Replace `src/data/demo-data.json` and the
-  content in `src/data/passport.ts` with production values before publishing real
-  passport data.
-- `dist/` and `node_modules/` are intentionally ignored by Git; Cloudflare Pages
-  builds the site from source.
+- `dist/` and `node_modules/` are ignored by Git; Cloudflare Pages builds from source.
+- The self-hosted variable font is large (~690 KB). It is intentionally kept because
+  removing it changes German and CJK text wrapping. Subset it with a glyph-coverage
+  check before optimising for transfer size.
+- See the known data issues at the end of [docs/DATA_INTEGRATION.md](docs/DATA_INTEGRATION.md)
+  before publishing production values.
 
 ## License
 
