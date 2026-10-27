@@ -330,7 +330,7 @@ export default function App() {
               aria-labelledby={'passport-tab-' + tab}
               tabIndex={-1}
             >
-              <div className="panel-swap" key={tab}>
+              <div>
                 <div className="panel-head">
                   <h2 className="panel-title">{activePanel.title}</h2>
                   <div className="search">
